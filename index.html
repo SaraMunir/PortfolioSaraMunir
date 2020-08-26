@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara Munir</title>
+    <link rel="icon" href="assets/sm_logo.ico">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Oswald:400,600|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/fbeca39ed0.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body class="somt">
+    <nav class="navBar">
+        <img class="logo" src="assets/sm_logo_white.png" alt="">
+        <i class="fa fa-th fa-2x" id="hider" aria-hidden="true"></i>
+        <div class="menuBar">
+            <ul class="menuBarUL">
+                <li><a href="#" onClick="scrolAbout()">ABOUT</a></li>
+                <li><a href="#" onClick="ScrollToProjects()">PROJECTS</a></li>
+                <li><a href="#" onClick="ShowContacts()">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="myHero">
+        <div class="heroContainer">
+            <p class="intro heroCommon text-left"
+            data-aos="fade-right"
+            data-aos-delay="60"
+            data-aos-duration="800">Hi! I'm</p>
+            <div class="myName text-center d-flex mx-auto">
+                    <div class="heroText1 text-right"
+                    data-aos="fade-right"
+                    data-aos-duration="1000"
+                    data-aos-delay="500">Sara</div>
+                    <div class="heroText2 text-left"
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    data-aos-delay="700">MUNIR</div>
+            </div>
+            <p 
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="900"
+            class="subHero heroCommon text-right"> I'm a full-stack web developer</p>
+        </div>
+    </div>
+    <main>
+        <section >
+            <div class="aboutMe" >
+                <div class="profileImage mx-auto" 
+                data-aos="fade-left"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-duration="800">
+                    <img class="roundIm myImg" src="assets/myProfilePhotoCutOut4.png" alt="">
+                </div>
+                <div class="aboutMeText mx-auto"
+                data-aos="fade-right"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-duration="800">
+                    <h2 class="specialFont">About Me</h2>
+                    <p class="aboutMeDes">
+                        Hi I'm Sara, A <span class="fntOrng">Full Stackweb Developer</span> with a background in architecture. I absolutely love being able to combine my knack for design and logic based problem solving to bring abstract ideas to functional and user friendly websites. I am passionate about programing with key interest in both designs and animations.                    
+                    </p>
+                    <p class="aboutMeDes">During my free time, i like to stalk cat <i class="fas fa-cat"></i> accounts on instagram </p>
+                    <div class="myBtnClr button2" onClick="ShowStack()" style="width: 40%;">Read More</div>
+                </div>
+            </div>
+        </section>
+        <section class="" id="devStacks">
+            <div class="jstCntCentre">
+                <h3 class="specialFont" style="font-size: 3rem;
+                color: grey; text-align: center;">Development Stack</h3>
+                <div class="stacksRow greyFont row mx-auto" 
+                >
+                    <div class="stack jstCntCentre"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-delay="50">
+                        <div class="stckSect">
+                            <img class="stackImg" src="assets/Html-logo.png" alt="">
+                        </div>
+                        <h5>HTML</h5>
+                    </div>
+                    <div class="stack jstCntCentre"
+                    data-aos="fade-up"
+                    data-aos-duration="1100"
+                    data-aos-delay="100">
+                        <div class="stckSect">
+                            <img class="stackImg" src="assets/Css-logo.png" alt="">
+                        </div>
+                        <h5>CSS</h5>
+                    </div>
+                    <div class="stack jstCntCentre"
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    data-aos-delay="150">
+                        <div class="stckSect">
+                            <img class="stackImg" src="assets/JavaScript-logo.png" alt="">
+                        </div>
+                        <h5>JAVASCRIPT</h5>
+                    </div>
+                    <div class="stack jstCntCentre"
+                    data-aos="fade-up"
+                    data-aos-duration="1300"
+                    data-aos-delay="200">
+                        <div class="stckSect">
+                            <img class="stackImg" src="assets/React-logo.png" alt="">
+                        </div>
+                        <h5>REACT</h5>
+                    </div>
+                    <div class="stack jstCntCentre"
+                    data-aos="fade-up"
+                    data-aos-duration="1400"
+                    data-aos-delay="250">
+                        <div class="stckSect">
+                            <img class="stackImg" src="assets/JQuery-logo.png" alt="">
+                        </div>
+                        <h5>JQuery</h5>
+                    </div>
+                    <div class="stack jstCntCentre"
+                    data-aos="fade-up"
+                    data-aos-duration="1500"
+                    data-aos-delay="300">
+                        <div class="stckSect">
+                            <img class="stackImg" src="assets/Node-logo.png" alt="">
+                        </div>
+                        <h5>Node Js</h5>
+                    </div>
+                    <div class="stack jstCntCentre"
+                    data-aos="fade-up"
+                    data-aos-duration="1600"
+                    data-aos-delay="350">
+                        <div class="stckSect">
+                            <img class="stackImg" src="assets/Mongo-logo.png" alt="">
+                        </div>
+                        <h5>Mongo Db</h5>
+                    </div>
+                    <div class="stack jstCntCentre"
+                    data-aos="fade-up"
+                    data-aos-duration="1700"
+                    data-aos-delay="400">
+                        <div class="stckSect">
+                            <img class="stackImg" src="assets/MySql-logo.png" alt="">
+                        </div>
+                        <h5>My SQL</h5>
+                    </div>
+                    <div class="stack jstCntCentre"
+                    data-aos="fade-up"
+                    data-aos-duration="1800"
+                    data-aos-delay="450">
+                        <div class="stckSect">
+                            <img class="stackImg" src="assets/PS-logo.png" alt="">
+                        </div>
+                        <h5>Photoshop</h5>
+                    </div>
+                    <div class="stack jstCntCentre"
+                    data-aos="fade-up"
+                    data-aos-duration="1900"
+                    data-aos-delay="500">
+                        <div class="stckSect">
+                            <img class="stackImg" src="assets/AI-logo.png" alt="">
+                        </div>
+                        <h5>Adobe Illustrator</h5>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <!-- make sure to add hide on class devprojects -->
+        
+        <section class="" id="devProjects">
+            <div class="projWindow hide">
+                <div class="projWndMrg">
+                    <div class="d-flex justify-content-end">
+                        <i class="closeBtn fas fa-times" onClick="closeProjWnd()"></i>
+                    </div>
+                    <div class="row" id="pro1">
+                        <img src="assets/photo-1560169573-5ff6f7f35fe4.jfif" alt="ss" class="col-lg-6" style="width: 45%;">
+                        <div class="details1 col-lg-6" style="width: 45%;">
+                            <h2>Movie Maniax</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non doloribus, quis quos, a aliquid soluta animi possimus sunt asperiores natus quasi mollitia distinctio et hic ab earum repellat optio harum?
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil corporis odio repellat. Vero deserunt omnis repudiandae alias sunt, adipisci id at fugiat necessitatibus cumque! Quia similique quibusdam incidunt labore aliquam?</p>
+                            <div class="d-flex justify-content-center" style="width: 70%;">
+                                <a href="https://saramunir.github.io/Weather-Dashboard/" class="button2" style="width: 150px;">Live Demo</a>
+                                <a href="https://saramunir.github.io/Weather-Dashboard/" class="button2" style="width: 150px;">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <h3 class="specialFont" style="text-align: center;">Projects</h3>
+            <div class="container">
+                <!-- projects -->
+                <div class="row" id="projectsSection">
+                    <!-- <div class="myRow proj1" id="proj1">
+                        <img class="projImg" src="assets/priscilla-du-preez-LpmlXMMEX4U-unsplash.jpg" alt="">
+                        <div class="projSumm hide" id="proj1Detl">
+                            <h2 class=" text-center">Movie Maniax</h2>
+                            <div class="myBtnMgn button2 btnWdth2" onClick="showProj1Detail('pro1')">Show Detail</div>
+                        </div> 
+                    </div>
+                    <div class="projectBox" id="proj2">
+                        <img class="projImg" src="assets/fitnessDiariesPre.png" alt="">
+                        <div class="projSumm ">
+                            <h3>project name</h3>
+                            <div class="myBtnClr button2" onClick="ShowProjDetail()">Show Detail</div>
+                        </div>
+                    </div>
+                    <div class="projectBox" id="proj3">
+                        <img class="projImg" src="assets/googleBooksPre.jpg" alt="">
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <footer id="contact">
+            <h3 class="specialFont footerHead" style="font-size: 2.5rem; color: grey; margin: 20px 0; height: 15vh;">Contact Me</h3>
+            <div class="socialLinks">
+                <div class="socialBox">
+                    <a href="https://github.com/SaraMunir" class="resLogo">
+                        <i class="fab fa-github fa-3x"></i>
+                        <p class="tooltiptext">Github</p>
+                    </a>
+                </div>
+                
+                <div class="socialBox">
+                    <a href="https://www.linkedin.com/in/sara-munir-689058b5/" class="resLogo">
+                        <i class="fab fa-linkedin-square fa-3x" aria-hidden="true"></i>
+                        <p class="tooltiptext">LinkedIn</p>
+                    </a>
+                </div>
+                <div class="socialBox">
+                    <a href="mailto:sara.m07011@gmail.com" class="resLogo">
+                        <i class="fas fa-envelope-square fa-3x"></i>
+                        <p class="tooltiptext">Email</p>
+                    </a>
+                </div>
+                <div class="socialBox">
+                    <a href="assets/SaraMunir_Resume.pdf" download="resume-SaraMunir" class="resLogo">
+                        <i class="far fa-file fa-3x res1">
+                        </i>
+                        <p class="tooltiptext">Resume</p>
+                    </a>
+                </div>
+            </div>  
+            <div class="copyRight">
+                <p>© 2020 by Sara Munir
+                </p>
+                
+            </div>
+        </footer>
+    </main>
+    <!-- <div class="boxTest2"></div> -->
+    <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
